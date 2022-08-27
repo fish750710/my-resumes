@@ -57,17 +57,10 @@
           <font-awesome-icon icon="fa-solid fa-kitchen-set" />
           技能
         </div>
-        <!-- <ul>
-          <li class="w-60" v-for="(item, index) in state.skillData" :key="index">
-            <h3>{{ item.name }}</h3>
-            <span>{{ item.description }}</span>
-          </li>
-        </ul> -->
         <div class="skill-content__box">
           <el-collapse v-model="skillCollapse" class="skill-content__ul" accordion>
             <el-collapse-item :title="item.name" :name="index" class="skill-content__li w-80 md:w-[18rem] xl:w-80"
               v-for="(item, index) in state.skillData" :key="index">
-              <!-- <h3>{{ item.name }}</h3> -->
               <span>{{ item.description }}</span>
             </el-collapse-item>
           </el-collapse>
