@@ -224,6 +224,35 @@ const state = reactive({
   ],
   experience: [
     {
+      companyName: '香港商阿爾伊股份有限公司台灣分公司',
+      logo: require('@/assets/images/company/re.png'),
+      jobName: '前端工程師',
+      date: '2022/3 - ',
+      place: '',
+      description: '',
+      skill: ['Vue.js', 'Nuxt.js', 'Pinia', 'JavaScript', 'TypeScirpt', 'Sass', 'Tailwind', 'Git', 'Axios', 'GraphQL', 'Element-UI', 'Express.js', 'Koa.js', 'Vant', 'i18n'],
+      object: [
+        {
+          id: '008',
+          objectName: '重構店家與開發後台',
+          items: [
+            '使用 Vue3 + Pinia + TypeScript + Tailwind CSS。',
+            '後端使用 Express。',
+            '介面使用 Element-UI。',
+            '優化現有功能與專案統一結構與撰寫語法。',
+          ]
+        },
+        {
+          id: '007',
+          objectName: '撰寫API文件',
+          items: [
+            '使用 VuePress 撰寫 Markdown 語法的文件。',
+            '整理所有 API。',
+          ]
+        }
+      ]
+    },
+    {
       companyName: '昊盈資訊有限公司',
       logo: require('@/assets/images/company/skyfill.jpg'),
       jobName: '前端工程師',
@@ -264,7 +293,7 @@ const state = reactive({
       companyName: '盈德網絡服務有限公司 ',
       logo: require('@/assets/images/company/itnsl.jpg'),
       jobName: '前端工程師',
-      date: '2020/1 - 2020/12',
+      date: '2021/1 - 2022/2',
       place: '',
       description: '官網、M 站、H5 及活動相關頁面的維護及開發。',
       skill: ['Vue.js', 'Vuex', 'JavaScript', 'jQuery', 'Sass', 'HTML', 'Git', 'SSI', 'Swiper', 'AJAX', 'Highcharts', 'wow.js', 'GA', 'PHP', 'React.js'],
