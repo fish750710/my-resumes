@@ -293,7 +293,7 @@ const state = reactive({
       companyName: '盈德網絡服務有限公司 ',
       logo: require('@/assets/images/company/itnsl.jpg'),
       jobName: '前端工程師',
-      date: '2021/1 - 2022/2',
+      date: '2020/1 - 2020/12',
       place: '',
       description: '官網、M 站、H5 及活動相關頁面的維護及開發。',
       skill: ['Vue.js', 'Vuex', 'JavaScript', 'jQuery', 'Sass', 'HTML', 'Git', 'SSI', 'Swiper', 'AJAX', 'Highcharts', 'wow.js', 'GA', 'PHP', 'React.js'],
