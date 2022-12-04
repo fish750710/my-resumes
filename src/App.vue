@@ -170,16 +170,20 @@ const state = reactive({
       description: 'Vue2 & Vue3 & Vuex，開發SPA架構網站',
     },
     {
+      name: 'React.js',
+      description: 'React Hooks & Redux Toolkit，開發SPA架構網站',
+    },
+    {
       name: 'Nuxt.js',
       description: '建構 SSR 架構網站',
     },
     {
-      name: 'Sass 和 Tailwind',
+      name: 'Sass、Tailwind、Styled Components',
       description: '規劃 RWD版型，模組化 CSS',
     },
     {
-      name: 'Bootstrap、Element UI',
-      description: '開發後台介面',
+      name: 'Bootstrap、Element UI、Material UI',
+      description: '快速開發介面',
     },
     {
       name: 'jQuery',
@@ -371,6 +375,24 @@ const state = reactive({
           軟體資訊業一直都是台灣的軟實力，我願意將過去在別的行業累積的經驗及對解決顧客問題的熱情，再度發揮在編寫軟體上。希望能有機會發揮所長為貴公司奮鬥，並與其他工程師互相學習成長，如有機會我也會利用閒暇時間再度進修，精益求精並幫助公司創造績效。`,
   portfolio: [
     {
+      img: require('@/assets/images/projects/myMovie.jpg'),
+      title: 'My Movie 電影網站(作品)',
+      skill: ['React.js', 'Redux Toolkit', 'Material UI', 'Styled Components', 'Tailwind CSS', 'Swiper', 'Vite'],
+      description: `使用 React hooks 開發。`,
+      info: [
+        '支援 RWD 效果。',
+        '串接API。',
+        '輪播功能。',
+        '儲存最愛功能。',
+        '搜尋功能。',
+        '評分功能。',
+        '播放預告功能。',
+      ],
+      url: 'https://fish750710.github.io/myMovie/',
+      text: [],
+      github: 'https://github.com/fish750710/myMovie',
+    },
+    {
       img: require('@/assets/images/projects/vue3_trade.jpg'),
       title: 'H5 Web UI 交易平台',
       skill: ['Vue3', 'Vuex', 'TypeScript', 'eChart', 'ESLint'],
@@ -412,7 +434,7 @@ const state = reactive({
     {
       img: require('@/assets/images/projects/nuxt_3c.jpg'),
       title: '電商網站(作品)',
-      skill: ['Nuxt2', 'Axios', 'vee-validate3', 'Swiper','animate'],
+      skill: ['Nuxt2', 'Axios', 'vee-validate3', 'Swiper', 'animate'],
       description: `由原本電商網站Vue 2 改寫成 Nuxt 版本。`,
       info: [
         '支援RWD效果。',
@@ -482,7 +504,7 @@ const state = reactive({
     {
       img: require('@/assets/images/projects/bigdata.jpg'),
       title: '數據圖表',
-      skill: ['Vue2', 'highcharts','scss', 'jQuery'],
+      skill: ['Vue2', 'highcharts', 'scss', 'jQuery'],
       description: `串接 API 動態產生客製化圖表`,
       info: [
         '使用new Vue 動態綁定資料。',
@@ -768,6 +790,7 @@ $font_primary: #134264;
           border-top-left-radius: 15px;
           // border-radius: 15px;
           border: none;
+          line-height: 1.2rem;
 
           &:last-child {
             border-bottom-right-radius: 15px;
@@ -928,6 +951,7 @@ $font_primary: #134264;
     background-color: $font_color;
     padding: 2rem 5rem;
     position: relative;
+
     // .bg{
     //   background: url(@/assets/images/4458680.jpg) no-repeat 0 0/100%;
     //   position: absolute;
@@ -961,6 +985,7 @@ $font_primary: #134264;
         box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
         position: relative;
         letter-spacing: 0.1rem;
+
         &:hover {
           // cursor: default;
           background-color: rgba(248, 221, 170, 0.3);
@@ -1000,6 +1025,7 @@ $font_primary: #134264;
             }
           }
         }
+
         .text {
           padding: 0.5rem;
         }
@@ -1072,6 +1098,7 @@ $font_primary: #134264;
         justify-content: center;
       }
     }
+
     .about-content {
       padding: 2rem;
     }
