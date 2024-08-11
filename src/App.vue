@@ -171,26 +171,26 @@ const state = reactive({
     },
     {
       name: 'React.js',
-      description: 'React Hooks & Redux Toolkit，開發SPA架構網站',
+      description: 'React & Redux Toolkit、Redux-saga、Mobx，開發SPA架構網站',
     },
     {
-      name: 'Nuxt.js',
-      description: '建構 SSR 架構網站',
+      name: 'Nuxt.js、Next.js',
+      description: '建構 SSR 架構網站，提升SEO。',
     },
     {
-      name: 'Sass、Tailwind、Styled Components',
+      name: 'Sass、Less、Tailwind、Styled Components',
       description: '規劃 RWD版型，模組化 CSS',
     },
     {
-      name: 'Bootstrap、Element UI、Material UI',
-      description: '快速開發介面',
+      name: 'Bootstrap、Element UI、Material UI，Ant Design',
+      description: 'UI框架，快速開發介面',
     },
     {
       name: 'jQuery',
       description: '快速開發',
     },
     {
-      name: 'WebSocket',
+      name: 'WebSocket、MQTT',
       description: '開發即時通訊和資料傳遞',
     },
     {
@@ -210,7 +210,7 @@ const state = reactive({
       description: '開發小遊戲和繪製相關',
     },
     {
-      name: 'git',
+      name: 'git，git flow',
       description: '管理版本控制',
     },
     {
@@ -225,17 +225,93 @@ const state = reactive({
       name: 'TypeScript',
       description: '嚴格執行型別檢查，避免不必要的錯誤',
     },
+    {
+      name: 'Vite、Webpack',
+      description: '建置網站。',
+    },
   ],
   experience: [
+    {
+      companyName: '初陽科技有限公司',
+      logo: require('@/assets/images/company/originLight.png'),
+      jobName: '資深前端工程師',
+      date: '2023/2 - ',
+      place: '',
+      description: '',
+      skill: ['ReactJS', 'NextJS', 'Redux', 'Mobx', 'TypeScirpt', 'Less', 'Scss', 'Tailwind', 'Git', 'Axios', 'i18n', 'Ant Design', 'MQTT', 'MUI', 'Vite', 'Webpack'],
+      object: [
+        {
+          id: '012',
+          objectName: '戰績',
+          items: [
+            '導入 Jira 專案管理，隨時追蹤夥伴進度與分配。',
+            '導入 Git Flow 開發流程，統一版本管理。',
+            '導入 Nx Monorepo，提取成共用模組，減少不必要重複模組。',
+            '導入 ESlint，提升 Code 品質。',
+            '開發數個新平台專案，提供用戶多重選擇。',
+            '誇部門合作開發。',
+          ]
+        },
+        {
+          id: '011',
+          objectName: '管理',
+          items: [
+            '公司招聘相關人才。',
+            '團隊協作開發。',
+            'Code Review。',
+            '新人教導。',
+            '專案管理，確保高品質與一致性。',
+            '完成主管交辦事項。',
+            '評估新技術與新工具的導入。',
+            '擔任前端窗口，任務分派與追蹤進度。',
+          ]
+        },
+        {
+          id: '010',
+          objectName: '新平台',
+          items: [
+            '根據需求，0-1 開發新平台及建構新專案。',
+            '開發共用組件。',
+            '串接API等。',
+            'PC/Mobile Web 自適應功能。',
+            '效能優化。',
+          ]
+        },
+        {
+          id: '009',
+          objectName: '新官網',
+          items: [
+            '根據需求，0-1 開發新平台及建構新專案。',
+            '串接API等。',
+            'PC/Mobile Web 自適應功能。',
+          ]
+        },
+        {
+          id: '008',
+          objectName: '現有平台和後台',
+          items: [
+            '修復Bug和維護及新增功能。',
+          ]
+        }
+      ]
+    },
     {
       companyName: '香港商阿爾伊股份有限公司台灣分公司',
       logo: require('@/assets/images/company/re.png'),
       jobName: '前端工程師',
-      date: '2022/3 - ',
+      date: '2022/3 - 2023/1',
       place: '',
       description: '',
       skill: ['Vue.js', 'Nuxt.js', 'Pinia', 'JavaScript', 'TypeScirpt', 'Sass', 'Tailwind', 'Git', 'Axios', 'GraphQL', 'Element-UI', 'Express.js', 'Koa.js', 'Vant', 'i18n'],
       object: [
+        {
+          id: '009',
+          objectName: '開發遊戲中心平台',
+          items: [
+            '使用 Vue3 + TypeScript + Tailwind CSS。',
+            '開發相關遊戲。',
+          ]
+        },
         {
           id: '008',
           objectName: '重構店家與開發後台',
@@ -369,7 +445,7 @@ const state = reactive({
   ],
   about: `【工作歷程】<br /><br />
           JAVA軟體工程師經驗兩年，負責開發銀行內部外匯系統專案。工作之餘自我進修WEB相關課程，藉此更激發了我對網頁開發的興趣。
-          前端工程師經驗三年，負責官網和後台功能開發與維護。熟悉HTML5、CSS3、JavaScript、jQuery、Bootstrap4、git等，可獨立切版、完成RWD網頁及開發完整功能的SPA網站。專長使用 Vue 2、3 、Nuxt 開發 SPA網站。工作之餘自我進修 TypeScript 和React.js。
+          數年的前端工程師經驗，負責開發前後台。擅長使用React、Vue 框架建置網站等，可獨立切版、完成RWD網頁及開發完整功能的網站。
           <br /><br />
           【未來期許】<br /><br />
           軟體資訊業一直都是台灣的軟實力，我願意將過去在別的行業累積的經驗及對解決顧客問題的熱情，再度發揮在編寫軟體上。希望能有機會發揮所長為貴公司奮鬥，並與其他工程師互相學習成長，如有機會我也會利用閒暇時間再度進修，精益求精並幫助公司創造績效。`,
