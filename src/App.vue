@@ -234,7 +234,7 @@ const state = reactive({
     {
       companyName: '初陽科技有限公司',
       logo: require('@/assets/images/company/originLight.png'),
-      jobName: '資深前端工程師',
+      jobName: '資深前端工程師(副組長)',
       date: '2023/2 - ',
       place: '',
       description: '',
