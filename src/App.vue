@@ -451,6 +451,27 @@ const state = reactive({
           軟體資訊業一直都是台灣的軟實力，我願意將過去在別的行業累積的經驗及對解決顧客問題的熱情，再度發揮在編寫軟體上。希望能有機會發揮所長為貴公司奮鬥，並與其他工程師互相學習成長，如有機會我也會利用閒暇時間再度進修，精益求精並幫助公司創造績效。`,
   portfolio: [
     {
+      img: require('@/assets/images/projects/h5_4.0.jpg'),
+      title: 'H5 4.0 遊戲平台',
+      skill: ['React', 'Mobx', 'Less', 'Axios', 'ESLint', 'Mqtt'],
+      description: `由我主導團隊專案開發0-1。
+                    class 專案重構優化成 hooks。
+                    共用元件 component化。
+                    邏輯抽離。
+                    誇部門討論和合作。`,
+      info: [
+        '3.0 升級 4.0，提供新功能及優化效能提高速度。',
+        '提供不一樣版型提供用戶選擇',
+        '提供接近APP體驗的平台，使用戶能快速上手。',
+        '提供多主題色選擇。',
+        '串接三方充值和提現',
+      ],
+      text: [
+        '平台有限制地區瀏覽',
+        '<a href="https://www.youtube.com/watch?v=h9xm0v5KehY" target="_blank" style="color: red;">操作影片連結</ a>'
+      ],
+    },
+    {
       img: require('@/assets/images/projects/myMovie.jpg'),
       title: 'My Movie 電影網站(作品)',
       skill: ['React.js', 'Redux Toolkit', 'Material UI', 'Styled Components', 'Tailwind CSS', 'Swiper', 'Vite'],
