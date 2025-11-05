@@ -171,7 +171,7 @@ const state = reactive({
     },
     {
       name: 'React.js',
-      description: 'React & Redux Toolkit、Redux-saga、Mobx，開發SPA架構網站',
+      description: 'React & Redux Toolkit、Redux-saga、Mobx、Zustand，開發SPA架構網站',
     },
     {
       name: 'Nuxt.js、Next.js',
@@ -229,16 +229,32 @@ const state = reactive({
       name: 'Vite、Webpack',
       description: '建置網站。',
     },
+    {
+      name: 'ESLint、Prettier',
+      description: '程式碼風格檢查。',
+    }
+    ,{
+      name: 'ReactQuery、Axios',
+      description: '在前端與後端的溝通時處理API和商業邏輯',
+    },
+    {
+      name: 'monorepo、turborepo、Nx',
+      description: '管理多專案及共用模組',
+    },
+    {
+      name: 'Jira、禪道',
+      description: '專案管理工具、任務分配與追蹤進度',
+    }
   ],
   experience: [
     {
       companyName: '初陽科技有限公司',
       logo: require('@/assets/images/company/originLight.png'),
-      jobName: '資深前端工程師(副組長)',
+      jobName: '資深前端工程師',
       date: '2023/2 - ',
       place: '',
       description: '',
-      skill: ['ReactJS', 'NextJS', 'Redux', 'Mobx', 'TypeScirpt', 'Less', 'Scss', 'Tailwind', 'Git', 'Axios', 'i18n', 'Ant Design', 'MQTT', 'MUI', 'Vite', 'Webpack'],
+      skill: ['ReactJS', 'NextJS', 'Redux', 'Mobx', 'TypeScirpt', 'React Query', 'Less', 'Scss', 'Tailwind', 'Git', 'Axios', 'i18n', 'Ant Design', 'MQTT', 'MUI', 'Vite', 'Webpack'],
       object: [
         {
           id: '012',
@@ -246,7 +262,7 @@ const state = reactive({
           items: [
             '導入 Jira 專案管理，隨時追蹤夥伴進度與分配。',
             '導入 Git Flow 開發流程，統一版本管理。',
-            '導入 Nx Monorepo，提取成共用模組，減少不必要重複模組。',
+            '導入 Nx Monorepo和 Turborepo，提取成共用模組，減少不必要重複模組。',
             '導入 ESlint，提升 Code 品質。',
             '開發數個新平台專案，提供用戶多重選擇。',
             '誇部門合作開發。',
@@ -451,8 +467,29 @@ const state = reactive({
           軟體資訊業一直都是台灣的軟實力，我願意將過去在別的行業累積的經驗及對解決顧客問題的熱情，再度發揮在編寫軟體上。希望能有機會發揮所長為貴公司奮鬥，並與其他工程師互相學習成長，如有機會我也會利用閒暇時間再度進修，精益求精並幫助公司創造績效。`,
   portfolio: [
     {
+      img: require('@/assets/images/projects/h5_5.0.jpg'),
+      title: 'H5 5.0 平台',
+      skill: ['React', 'Zustand', 'tailwind', 'Axios', 'ESLint', 'React Query', 'TypeScript', 'Vite'],
+      description: `團隊分工開發。
+                    導入Zustand、React Query。
+                    共用元件 component化。
+                    邏輯抽離。
+                    誇部門討論和合作。`,
+      info: [
+        '舊版升級 5.0，提供新UI及優化效能提高速度。',
+        '提供不一樣版型提供用戶選擇',
+        '提供接近APP體驗的平台，使用戶能快速上手。',,
+        '串接三方充值和提現',
+        '支援PWA功能',
+      ],
+      text: [
+        '平台有限制地區瀏覽',
+        '<a href="https://test202.btest4wohjelay.com/" target="_blank" style="color: red;">測試環境連結</ a>'
+      ],
+    },
+    {
       img: require('@/assets/images/projects/h5_4.0.jpg'),
-      title: 'H5 4.0 遊戲平台',
+      title: 'H5 4.0 平台',
       skill: ['React', 'Mobx', 'Less', 'Axios', 'ESLint', 'Mqtt'],
       description: `由我主導團隊專案開發0-1。
                     class 專案重構優化成 hooks。
