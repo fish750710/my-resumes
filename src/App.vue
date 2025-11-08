@@ -233,17 +233,19 @@ const state = reactive({
       name: 'ESLint、Prettier',
       description: '程式碼風格檢查。',
     }
-    ,{
+    , {
       name: 'ReactQuery、Axios',
       description: '在前端與後端的溝通時處理API和商業邏輯',
     },
     {
-      name: 'monorepo、turborepo、Nx',
+      name: 'Monorepo、Turborepo、Nx',
       description: '管理多專案及共用模組',
     },
     {
       name: 'Jira、禪道',
       description: '專案管理工具、任務分配與追蹤進度',
+    }, {
+
     }
   ],
   experience: [
@@ -478,7 +480,7 @@ const state = reactive({
       info: [
         '舊版升級 5.0，提供新UI及優化效能提高速度。',
         '提供不一樣版型提供用戶選擇',
-        '提供接近APP體驗的平台，使用戶能快速上手。',,
+        '提供接近APP體驗的平台，使用戶能快速上手。', ,
         '串接三方充值和提現',
         '支援PWA功能',
       ],
